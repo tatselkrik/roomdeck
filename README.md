@@ -11,27 +11,30 @@ RoomDeck is a private, personal multi-TV remote for TCL Android TVs. One Control
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/controller-placeholder.svg" alt="Controller screenshot placeholder" width="100%"><br><sub>Controller</sub></td>
-    <td align="center"><img src="docs/screenshots/remote-placeholder.svg" alt="Remote deck screenshot placeholder" width="100%"><br><sub>Remote deck</sub></td>
+    <td align="center"><img src="docs/screenshots/controller-home.jpg" alt="RoomDeck controller home with saved TVs" width="100%"><br><sub>Controller home</sub></td>
+    <td align="center"><img src="docs/screenshots/add-tv.jpg" alt="RoomDeck Add a TV screen for Tailscale pairing" width="100%"><br><sub>Add a TV</sub></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="docs/screenshots/receiver-placeholder.svg" alt="TV Receiver screenshot placeholder" width="72%"><br><sub>TV Receiver</sub></td>
+    <td align="center"><img src="docs/screenshots/remote-deck.jpg" alt="RoomDeck remote controls" width="100%"><br><sub>Remote deck</sub></td>
+    <td align="center"><img src="docs/screenshots/apps-grid.jpg" alt="RoomDeck installed apps grid" width="100%"><br><sub>TV apps</sub></td>
   </tr>
 </table>
 
-These privacy-safe placeholders can be replaced with final device captures after the two-TV checklist is complete.
+These privacy-safe captures show the V1 phone Controller during TCL Android TV testing.
 
 ## V1 features
 
 - Save and switch between multiple TCL Android TVs.
 - Use a compact portrait and landscape remote with Back, Home, Input, D-pad, volume, mute, channel, playback, and individual TV Off.
-- Open and navigate the TV's own input chooser.
+- Open and navigate the TV's own input chooser where the TV software supports the remote Input key.
 - Browse each TV's launchable apps with progressively loaded icons.
 - Open an app immediately and return to Remote for D-pad control.
 - Hold and drag app tiles into a separate saved order for each TV.
 - Send **All TVs Off**.
 
 RoomDeck deliberately omits unreliable network power-on controls and its own USB browser. USB media stays inside the TV's Media Player app, preserving the player's normal browsing and subtitle support.
+
+Compatibility note: the Input shortcut is model-specific on TCL software. If a TV does not respond to it, launch **Media Player** from the Apps tab instead.
 
 ## Architecture
 
