@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">RoomDeck Remote screenshot placeholder</title>
+  <desc id="desc">Privacy-safe placeholder for a future RoomDeck Remote screenshot.</desc>
+  <rect width="1600" height="900" rx="40" fill="#08131F"/>
+  <text x="90" y="112" fill="#F4F7F8" font-family="Arial, sans-serif" font-size="58" font-weight="700">Remote deck</text>
+  <text x="90" y="162" fill="#9FB5C2" font-family="Arial, sans-serif" font-size="26">Compact controls in portrait and landscape</text>
+  <g fill="#514B60">
+    <rect x="95" y="230" width="310" height="96" rx="44"/><rect x="465" y="230" width="310" height="96" rx="44"/><rect x="835" y="230" width="310" height="96" rx="44"/>
+    <circle cx="800" cy="430" r="72"/><circle cx="650" cy="550" r="72"/><circle cx="800" cy="550" r="72"/><circle cx="950" cy="550" r="72"/><circle cx="800" cy="670" r="72"/>
+    <circle cx="265" cy="435" r="56"/><circle cx="265" cy="565" r="56"/><circle cx="265" cy="695" r="56"/>
+    <circle cx="1335" cy="435" r="56"/><circle cx="1335" cy="695" r="56"/>
+  </g>
+  <g fill="#F4F7F8" font-family="Arial, sans-serif" font-size="54" font-weight="700" text-anchor="middle">
+    <text x="800" y="450">UP</text><text x="650" y="570">L</text><text x="800" y="570">OK</text><text x="950" y="570">R</text><text x="800" y="690">DN</text>
+    <text x="265" y="452">+</text><text x="265" y="582">M</text><text x="265" y="712">-</text><text x="1335" y="452">+</text><text x="1335" y="712">-</text>
+  </g>
+  <rect x="90" y="788" width="1420" height="70" rx="35" fill="#112B39"/>
+  <g fill="#F4F7F8"><circle cx="320" cy="823" r="12"/><circle cx="560" cy="823" r="12"/><rect x="794" y="805" width="12" height="36" rx="6"/><rect x="818" y="805" width="12" height="36" rx="6"/><circle cx="1040" cy="823" r="12"/><circle cx="1280" cy="823" r="12"/></g>
+  <rect x="1130" y="78" width="380" height="54" rx="27" fill="#F5A43B"/>
+  <text x="1320" y="113" text-anchor="middle" fill="#08131F" font-family="Arial, sans-serif" font-size="20" font-weight="700">SCREENSHOT PLACEHOLDER</text>
+</svg>

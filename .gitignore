@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.keystore
+keystore.properties
+release/
+artifacts/
+.android/
+.gradle-home/
+
+# Local device details and test notes must never be committed.
+device-test-private.md
+*.local.json
+/Screenshot_*

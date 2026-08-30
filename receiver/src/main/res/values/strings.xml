@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RoomDeck Receiver</string>
+    <string name="service_channel_name">RoomDeck connection</string>
+    <string name="service_notification_title">RoomDeck Receiver is ready</string>
+    <string name="service_notification_text">Available only through Tailscale</string>
+</resources>
