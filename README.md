@@ -9,14 +9,14 @@ RoomDeck is a private, personal multi-TV remote for TCL Android TVs. One Control
 
 ## Preview
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center"><img src="docs/screenshots/controller-home.jpg" alt="RoomDeck controller home with saved TVs" width="100%"><br><sub>Controller home</sub></td>
-    <td align="center"><img src="docs/screenshots/add-tv.jpg" alt="RoomDeck Add a TV screen for Tailscale pairing" width="100%"><br><sub>Add a TV</sub></td>
+    <td width="50%" align="center"><img src="docs/screenshots/controller-home.jpg" alt="RoomDeck controller home with saved TVs" width="100%"><br><sub>Controller home</sub></td>
+    <td width="50%" align="center"><img src="docs/screenshots/add-tv.jpg" alt="RoomDeck Add a TV screen for Tailscale pairing" width="100%"><br><sub>Add a TV</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/remote-deck.jpg" alt="RoomDeck remote controls" width="100%"><br><sub>Remote deck</sub></td>
-    <td align="center"><img src="docs/screenshots/apps-grid.jpg" alt="RoomDeck installed apps grid" width="100%"><br><sub>TV apps</sub></td>
+    <td width="50%" align="center"><img src="docs/screenshots/remote-deck.jpg" alt="RoomDeck remote controls" width="100%"><br><sub>Remote deck</sub></td>
+    <td width="50%" align="center"><img src="docs/screenshots/apps-grid.jpg" alt="RoomDeck installed apps grid" width="100%"><br><sub>TV apps</sub></td>
   </tr>
 </table>
 
