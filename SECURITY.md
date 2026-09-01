@@ -2,11 +2,11 @@
 
 ## Supported version
 
-Only the latest RoomDeck version is supported. `v1.0.0` is the current private personal release. Android TV 12 and full cross-TV compatibility remain pending in the physical test checklist.
+Only the latest RoomDeck version is supported. `v1.0.1` is the first public production release.
 
 ## Distribution boundary
 
-The private V1 APKs retain RoomDeck's development signing identity and are debuggable so they can update the installed physical-test builds without clearing pairing data. They are intended only for Kirk's private devices and are not production-signed distribution binaries.
+Public APKs are release-mode packages signed with RoomDeck's production key and verified as non-debuggable before publication. The earlier `v1.0.0` development-signed APKs were private physical-test packages and are not public distribution binaries. Because Android requires matching signing certificates for an update, an existing development-signed installation must be uninstalled before installing the public production build.
 
 ## Reporting a problem
 

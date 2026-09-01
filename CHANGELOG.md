@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.1 — 2026-09-01
+
+First public production release.
+
+- Keeps the final V1 Controller and Receiver behavior unchanged.
+- Moves both applications to production release packaging with explicit non-debuggable builds, code and resource shrinking, and one permanent signing identity.
+- Adds local-only signing configuration without committing the production keystore or passwords.
+- Extends CI to lint and assemble release variants in addition to the existing debug gates.
+- Replaces private-device installation wording with public release and source-build instructions.
+- Retires the private development-signed `v1.0.0` APK assets rather than redistributing them.
+
+Signed-APK verification, checksums, and the Android TV 12/14 physical checklist are complete. The tested Android TV 12 model does not respond to Input; Media Player through Apps is the verified fallback. Exact-commit CI remains required before publication.
+
 ## 1.0.0 — 2026-08-30
 
 First private personal release.

@@ -1,9 +1,13 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import java.util.Properties
 
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
 }
+
+val roomDeckSigningProperties = rootProject.extra["roomDeckSigningProperties"] as Properties
+val roomDeckSigningEnabled = rootProject.extra["roomDeckSigningEnabled"] as Boolean
 
 android {
     namespace = "io.github.tatselkrik.roomdeck"
@@ -13,15 +17,30 @@ android {
         applicationId = "io.github.tatselkrik.roomdeck"
         minSdk = 31
         targetSdk = 36
-        versionCode = 19
-        versionName = "1.0.0"
+        versionCode = 20
+        versionName = "1.0.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        if (roomDeckSigningEnabled) {
+            create("release") {
+                storeFile = rootProject.file(roomDeckSigningProperties.getProperty("storeFile"))
+                storePassword = roomDeckSigningProperties.getProperty("storePassword")
+                keyAlias = roomDeckSigningProperties.getProperty("keyAlias")
+                keyPassword = roomDeckSigningProperties.getProperty("keyPassword")
+            }
+        }
     }
 
     buildTypes {
         release {
+            isDebuggable = false
             isMinifyEnabled = true
             isShrinkResources = true
+            if (roomDeckSigningEnabled) {
+                signingConfig = signingConfigs.getByName("release")
+            }
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
